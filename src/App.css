@@ -1,0 +1,301 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+
+
+.bg-color{
+
+  background: #D8E5EC;
+
+  
+
+}
+.navbar{
+  position:static;
+  
+}
+.navbar .navbar-brand{
+  color:#00D186;
+  text-transform: capitalize;
+  font-family: 'Mulish', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+cursor: pointer;
+}
+.navbar .nav-item{
+  font-family: 'Mulish', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+
+  text-transform: capitalize;
+ 
+}
+.navbar .nav-item .nav-link{
+  color: #333333;
+  cursor: pointer;
+}
+.navbar .nav-item .nav-link:hover{
+  color:#00D186;
+}
+
+
+
+
+.btn{
+ 
+  
+  width: 161px;
+  height: 47px;
+  
+  
+  
+  background: #00D186;
+  /* btn */
+  
+  box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 68px;
+  
+  color: #F7F7F7;
+  border: 0px;
+  /* identical to box height */
+  background-color: #00D186;
+}
+.btn:hover{
+  color:#F9FBFA;
+  background-color: black;
+}
+.bio  .bio-btn{
+  background-color: #ade7d0;
+  width: 165px;
+height: 51px;
+font-family: 'Mulish', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+
+
+}
+/* this is bio section */
+.bio #btn-seemore{
+  background-color:#D8E5EC ;
+  border:1px solid #00D186;
+  color: #00D186;
+}
+.bio #btn-seemore:hover{
+  background-color:black;
+  color:#F9FBFA;
+
+}
+.btn #seemore{
+  color: #00D186;
+}
+.btn #seemore:hover{
+  color:#F9FBFA;
+}
+
+
+.bio .para{
+  color:#333333;
+}
+
+
+.prgp{
+  font-family: 'Mulish', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+ font-size: 18px;
+ text-align: justify;
+  
+  /* Text Dark */
+  
+  color: #333333;
+}
+
+/* this is education section */
+ 
+.qualification{
+  background-color:#00273E;;
+ padding: 30px;
+ font-family: 'Mulish';
+ font-style: normal;
+ 
+  
+
+
+}
+.educard .card{
+  background-color: #00273E;
+  border: 0;
+  color: #DDDDDD;
+ 
+
+
+}
+/* this is data all about cards */
+ .card .date{
+  font-family: 'Mulish', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+
+
+
+}
+ .card .title{
+  font-family: 'Mulish', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+
+ 
+ }
+.card .subtitle{
+  font-family: 'Mulish', sans-serif;
+font-style: normal;
+
+font-weight: 400;
+font-size: 18px;
+
+ }
+  .card .para{
+ 
+font-family: 'Mulish', sans-serif;
+
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+word-spacing: 0px;
+text-align: justify;
+
+
+
+ }
+/* experienc */
+.Experience{
+  background-color:#D8E5EC;
+  font-family: 'Mulish', sans-serif;
+}
+.Experience .card{
+  background-color:#D8E5EC;
+  box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.2);
+  font-family: 'Mulish', sans-serif;
+height: 240px;
+
+
+}
+
+
+.Award{
+  background-color:#00273E;
+  font-family: 'Mulish', sans-serif;
+  text-align: justify;
+
+}
+.awardcard .card{
+  background-color:#00273E;
+  color: #DDDDDD;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  
+height: 300px;
+
+
+}
+.Award .arrows{
+  cursor: pointer;
+}
+
+/* research and publication */
+.ResearchandPublicatin{
+  font-family: 'Mulish', sans-serif;
+ padding-bottom: 250px;
+
+ 
+
+  
+}
+.RPcard{
+  font-family: 'Mulish', sans-serif;
+  background: #D8E5EC;
+box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.15);
+}
+ .footer-p{
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.contact{
+position: absolute;
+  background: linear-gradient(111.95deg, #00C47E 0%, #001B2A 100%);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  font-family: 'Mulish', sans-serif;
+ bottom: 0%;
+font-weight: 400;
+font-size: 16px;
+word-spacing: 2px;
+text-align: justify;
+
+
+
+
+color: #DDDDDD;
+}
+
+
+.contact input,textarea{
+  background: linear-gradient(111.95deg, #00C47E 0%, #001B2A 100%);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  font-family: 'Mulish', sans-serif;
+ 
+color: #F7F7F7;
+
+}
+
+
+
+.footer-p{
+  font-family: 'Mulish', sans-serif;
+  background: #001B2B;
+  color:#DDDDDD;
+
+  font-weight: 300;
+  font-size: 16px;
+
+ 
+}
+.Contact ::placeholder {
+  color:#F6F6F6;
+}
+ @media (max-width:768px){
+.ResearchandPublicatin{
+  padding-bottom: 100px;
+}
+  .contact{
+    
+    position: static;
+    bottom: 100%;
+    width: 100%;
+    right: 0%;
+  }
+ }
+@media(min-width:450px)
+{
+  .Transition,.card{
+
+    transition:0.9s ease-in-out ;
+  }
+  
+   .Transition:hover,.card:hover{
+    
+    transform: scale(1.1);
+  }
+
+ 
+
+}
+
